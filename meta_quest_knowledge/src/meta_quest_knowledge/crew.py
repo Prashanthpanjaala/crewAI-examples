@@ -38,7 +38,7 @@ class MetaQuestKnowledge():
             embedder={
                 "provider": "ollama",
                 "config": {
-                    "model": "tinyllama",
+                    "model": "nomic-embed-text",
                     "base_url": "http://localhost:11434"
                 }
             }
