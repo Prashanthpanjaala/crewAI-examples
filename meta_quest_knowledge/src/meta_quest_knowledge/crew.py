@@ -4,7 +4,7 @@ from crewai.knowledge.source.pdf_knowledge_source import PDFKnowledgeSource
 
 # Knowledge sources
 pdf_source = PDFKnowledgeSource(
-    file_paths=["meta_quest_manual.pdf"]
+    file_paths=["Veeramalla_Observability_Platform_Documentation.pdf"]
 )
 
 @CrewBase
