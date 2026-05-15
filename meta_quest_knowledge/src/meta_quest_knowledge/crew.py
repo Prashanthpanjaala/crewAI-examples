@@ -1,3 +1,4 @@
+from chromadb.utils.embedding_functions import OllamaEmbeddingFunction
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.knowledge.source.pdf_knowledge_source import PDFKnowledgeSource
